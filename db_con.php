@@ -14,9 +14,9 @@
 
 
 <?php
-$servername = "localhost";
+$servername = "db";
 $username = "root";
-$password = "";
+$password = "root";
 $database = "xpansion_db";
 
 $con = new mysqli($servername, $username, $password, $database);
