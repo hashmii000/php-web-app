@@ -21,5 +21,5 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
           source: "./*"
-          target: "C:/sites/phpapp"
+          target: "C:/app/phpapp"
           strip_components: 0
